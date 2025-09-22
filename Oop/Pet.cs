@@ -57,3 +57,11 @@ public class Dog : Pet, IPetMovement
         Console.WriteLine("Woof Woof");
     }
 }
+
+public class Cat : Pet, IPetMovement
+{
+    public void Bark()
+    {
+        Console.WriteLine("Meow Meow");
+    }
+}
