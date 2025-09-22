@@ -62,6 +62,6 @@ public class Cat : Pet, IPetMovement
 {
     public void Bark()
     {
-        throw new NotImplementedException();
+        Console.WriteLine("Meow Meow");
     }
 }
