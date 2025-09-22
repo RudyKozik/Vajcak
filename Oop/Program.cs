@@ -1,10 +1,10 @@
 ﻿using Oop;
 
-// Pet pet = new Pet();
-// pet.Name = "Whiskers";
-// pet.PrintInfo();
-//
-// Console.WriteLine("=========================");
+Pet pet = new Pet();
+pet.Name = "Whiskers";
+pet.PrintInfo();
+
+Console.WriteLine("=========================");
 
 Dog dog = new Dog("Buddy", 2020, "Golden Retriever");
 dog.PrintInfo();
